@@ -80,3 +80,21 @@ class Solution:
 | **第4次循环** | 旧值: `a=3`, `b=5` | 新 `a` ➔ **`5`** (旧b)<br>新 `b` ➔ `3 + 5` = **`8`** | `b=8` 代表推算出了到达第 5 阶有 **8** 种方法 | `for _ in range(n - 1):`<br>`a, b = b, a + b` |
 | **结束返回** | `b = 8` | 循环 `n-1` 次结束，返回 `b` | 得到最终结果：到达第 5 阶有 **8** 种方法 | `return b` |
 
+
+# 力扣里面的解析
+
+---
+
+<img width="1120" height="1413" alt="image" src="https://github.com/user-attachments/assets/2312479d-1936-4953-84aa-76aaf2536ef4" />
+
+---
+
+<img width="1122" height="1262" alt="image" src="https://github.com/user-attachments/assets/90ba52e0-0cb8-4e24-9257-f7ef3c347fae" />
+
+---
+
+<img width="1141" height="1506" alt="image" src="https://github.com/user-attachments/assets/949f00cf-c0a6-4c26-8200-0f284cd34e02" />
+
+---
+
+
